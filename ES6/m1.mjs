@@ -1,2 +1,5 @@
 export var foo = "bar";
-setTimeout(() => (foo = "baz"), 500);
+
+setTimeout(() => {
+  foo = "baz";
+}, 500);
